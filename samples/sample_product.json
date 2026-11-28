@@ -1,0 +1,178 @@
+{
+  "product_id": "G1111000622",
+  "family": {
+    "family_id": "FAM-BCB81973",
+    "name_fr": "Cliquets compacts - attachement 14 x 18 mm"
+  },
+  "brand": {
+    "brand_id": "BR-B66766",
+    "name": "Facom"
+  },
+  "mfr_ref": "S.382V",
+  "lifecycle_status": "ACTIVE",
+  "identifiers": [
+    {
+      "type": "INTERNAL_REF",
+      "value": "0139-5020248",
+      "market": "FR",
+      "source": "ERP_FR"
+    },
+    {
+      "type": "MFR_REF",
+      "value": "S.382V",
+      "market": null,
+      "source": "PIM"
+    },
+    {
+      "type": "MDM_ID",
+      "value": "MDMCDEF6CFF5C",
+      "market": null,
+      "source": "MDM"
+    },
+    {
+      "type": "EAN",
+      "value": "3148510589114",
+      "market": null,
+      "source": "PIM"
+    }
+  ],
+  "category_refs": [
+    {
+      "category_id": "CAT-06EB1F47",
+      "taxonomy": "WEB",
+      "is_primary": true
+    }
+  ],
+  "texts": [
+    {
+      "locale": "fr-FR",
+      "name": "Cliquet pour dynamométrie Facom S.382V, Couple de serrage, maximum: 350 N.m",
+      "erp_name": "CLIQUET POUR CLE DYNAMO S.382V",
+      "family_name": "Cliquets compacts - attachement 14 x 18 mm",
+      "slug": "cliquets-compacts-attachement-14-x-18-mm",
+      "status": "SOURCE"
+    },
+    {
+      "locale": "de-DE",
+      "name": null,
+      "erp_name": null,
+      "family_name": null,
+      "slug": null,
+      "status": "MISSING"
+    }
+  ],
+  "attributes": [
+    {
+      "code": "torque_max",
+      "value_type": "NUMBER",
+      "value_string": null,
+      "value_number": 350.0,
+      "value_bool": null,
+      "unit": "N.m",
+      "locale": null
+    },
+    {
+      "code": "voltage",
+      "value_type": "NUMBER",
+      "value_string": null,
+      "value_number": 382.0,
+      "value_bool": null,
+      "unit": "V",
+      "locale": null
+    }
+  ],
+  "media": [
+    {
+      "asset_id": "MA-1600000349207",
+      "asset_type": "IMAGE",
+      "role": "PRIMARY",
+      "url": "https://media.example-mro.com/medias/product_image_2d_for_external_use/07/92/1600000349207/S.382V_PH-D-515Wx515H.jpg?v=220920132127+0200",
+      "mime_type": "image/jpeg",
+      "locale": null,
+      "revision_ts": "2022-09-20 14:21:27+01",
+      "sort_order": 1
+    },
+    {
+      "asset_id": "MA-8807419576321",
+      "asset_type": "DATASHEET",
+      "role": "TECHNICAL_DATASHEET",
+      "url": "https://media.example-mro.com/medias/products/21/63/8807419576321/technicaldatasheet-fr0.pdf?v=180831152758+0200&attachment=true",
+      "mime_type": "application/pdf",
+      "locale": "fr-FR",
+      "revision_ts": "2018-08-31 16:27:58+01",
+      "sort_order": 1
+    }
+  ],
+  "markets": [
+    {
+      "market": "FR",
+      "status": "ACTIVE",
+      "visible_anonymous": true,
+      "sales_unit": "PCE",
+      "min_order_qty": 1,
+      "pack_size": 1,
+      "stock_status": "IN_STOCK",
+      "lead_time_days": null,
+      "url": "https://shop.example-mro.com/fr/cliquets-compacts-attachement-14-x-18-mm/p-G1111000622",
+      "prices": [
+        {
+          "price_list": "FR_LIST",
+          "currency": "EUR",
+          "min_qty": 1.0,
+          "unit_price": 108.78,
+          "price_per": 1,
+          "valid_from": "2026-01-01",
+          "valid_to": null
+        }
+      ]
+    },
+    {
+      "market": "BE",
+      "status": "ACTIVE",
+      "visible_anonymous": true,
+      "sales_unit": "PCE",
+      "min_order_qty": 1,
+      "pack_size": 1,
+      "stock_status": "AVAILABLE_LEAD_TIME",
+      "lead_time_days": 3,
+      "url": null,
+      "prices": [
+        {
+          "price_list": "BE_LIST",
+          "currency": "EUR",
+          "min_qty": 1.0,
+          "unit_price": 112.9485,
+          "price_per": 1,
+          "valid_from": "2026-01-01",
+          "valid_to": null
+        }
+      ]
+    },
+    {
+      "market": "DE",
+      "status": "ACTIVE",
+      "visible_anonymous": true,
+      "sales_unit": "PCE",
+      "min_order_qty": 1,
+      "pack_size": 1,
+      "stock_status": "AVAILABLE_LEAD_TIME",
+      "lead_time_days": null,
+      "url": null,
+      "prices": [
+        {
+          "price_list": "DE_LIST",
+          "currency": "EUR",
+          "min_qty": 1.0,
+          "unit_price": 114.24,
+          "price_per": 1,
+          "valid_from": "2026-01-01",
+          "valid_to": null
+        }
+      ]
+    }
+  ],
+  "source_updated_at": "2026-09-27 21:00:00+00",
+  "export_id": "EXP-20261128T0200Z",
+  "export_ts": "2026-11-28 02:00:00+00",
+  "export_date": "2026-11-28"
+}
